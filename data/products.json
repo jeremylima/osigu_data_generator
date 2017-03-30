@@ -167,6 +167,34 @@
         "diagnoses_3"
       ],
       "created_at": "2017-03-17T22:37:26.959Z"
+    },
+    {
+      "osigu": {
+        "id": 10000007,
+        "name": "BOGUS",
+        "full_name": "EPRESCRIPTION CALCULATOR - 2 AMPOLLAS BEBIBLES DE 10ML (2 PACK) - AMPOLLAS CATEGORY",
+        "dosage": {
+          "strength": "5",
+          "unit_of_measure_ids": "13"
+        },
+        "form": {
+          "type_id": 4,
+          "unit_of_measure_id": 2,
+          "quantity": 10
+        },
+        "active_ingredient": "aspartato de arginina",
+        "quantity": 2,
+        "type_id": 1,
+        "generic": false,
+        "manufacturer_id": 393,
+        "group_id": 1
+      },
+      "diagnoses": [
+        "diagnoses_1",
+        "diagnoses_2",
+        "diagnoses_3"
+      ],
+      "created_at": "2017-03-17T22:37:26.959Z"
     }
   ]
 }
