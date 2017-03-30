@@ -1,0 +1,172 @@
+{
+  "products": [
+    {
+      "osigu": {
+        "id": 10000001,
+        "name": "BOGUS",
+        "full_name": "EPRESCRIPTION CALCULATOR - 1 AMPOLLA BEBIBLE DE 10ML - AMPOLLAS CATEGORY",
+        "dosage": {
+          "strength": "5",
+          "unit_of_measure_ids": "13"
+        },
+        "form": {
+          "type_id": 4,
+          "unit_of_measure_id": 2,
+          "quantity": 10
+        },
+        "active_ingredient": "aspartato de arginina",
+        "quantity": 1,
+        "type_id": 1,
+        "generic": false,
+        "manufacturer_id": 393,
+        "group_id": 1
+      },
+      "diagnoses": [
+        "diagnoses_1",
+        "diagnoses_2",
+        "diagnoses_3"
+      ],
+      "created_at": "2017-03-17T22:37:26.959Z"
+    },
+    {
+      "osigu": {
+        "id": 10000002,
+        "name": "BOGUS",
+        "full_name": "EPRESCRIPTION CALCULATOR - 1 AMPOLLA BEBIBLE DE 15ML - AMPOLLAS CATEGORY",
+        "dosage": {
+          "strength": "5",
+          "unit_of_measure_ids": "13"
+        },
+        "form": {
+          "type_id": 4,
+          "unit_of_measure_id": 2,
+          "quantity": 15
+        },
+        "active_ingredient": "aspartato de arginina",
+        "quantity": 1,
+        "type_id": 1,
+        "generic": false,
+        "manufacturer_id": 393,
+        "group_id": 1
+      },
+      "diagnoses": [
+        "diagnoses_1",
+        "diagnoses_2",
+        "diagnoses_3"
+      ],
+      "created_at": "2017-03-17T22:37:26.959Z"
+    },
+    {
+      "osigu": {
+        "id": 10000003,
+        "name": "BOGUS",
+        "full_name": "EPRESCRIPTION CALCULATOR - 1 AMPOLLA BEBIBLE DE 20ML - AMPOLLAS CATEGORY",
+        "dosage": {
+          "strength": "5",
+          "unit_of_measure_ids": "13"
+        },
+        "form": {
+          "type_id": 4,
+          "unit_of_measure_id": 2,
+          "quantity": 20
+        },
+        "active_ingredient": "aspartato de arginina",
+        "quantity": 1,
+        "type_id": 1,
+        "generic": false,
+        "manufacturer_id": 393,
+        "group_id": 1
+      },
+      "diagnoses": [
+        "diagnoses_1",
+        "diagnoses_2",
+        "diagnoses_3"
+      ],
+      "created_at": "2017-03-17T22:37:26.959Z"
+    },
+    {
+      "osigu": {
+        "id": 10000004,
+        "name": "BOGUS",
+        "full_name": "EPRESCRIPTION CALCULATOR - 1 AMPOLLA BEBIBLE DE 25ML - AMPOLLAS CATEGORY",
+        "dosage": {
+          "strength": "5",
+          "unit_of_measure_ids": "13"
+        },
+        "form": {
+          "type_id": 4,
+          "unit_of_measure_id": 2,
+          "quantity": 25
+        },
+        "active_ingredient": "aspartato de arginina",
+        "quantity": 1,
+        "type_id": 1,
+        "generic": false,
+        "manufacturer_id": 393,
+        "group_id": 1
+      },
+      "diagnoses": [
+        "diagnoses_1",
+        "diagnoses_2",
+        "diagnoses_3"
+      ],
+      "created_at": "2017-03-17T22:37:26.959Z"
+    },
+    {
+      "osigu": {
+        "id": 10000005,
+        "name": "BOGUS",
+        "full_name": "EPRESCRIPTION CALCULATOR - 1 AMPOLLA BEBIBLE DE 30ML - AMPOLLAS CATEGORY",
+        "dosage": {
+          "strength": "5",
+          "unit_of_measure_ids": "13"
+        },
+        "form": {
+          "type_id": 4,
+          "unit_of_measure_id": 2,
+          "quantity": 30
+        },
+        "active_ingredient": "aspartato de arginina",
+        "quantity": 1,
+        "type_id": 1,
+        "generic": false,
+        "manufacturer_id": 393,
+        "group_id": 1
+      },
+      "diagnoses": [
+        "diagnoses_1",
+        "diagnoses_2",
+        "diagnoses_3"
+      ],
+      "created_at": "2017-03-17T22:37:26.959Z"
+    },
+    {
+      "osigu": {
+        "id": 10000006,
+        "name": "BOGUS",
+        "full_name": "EPRESCRIPTION CALCULATOR - 1 AMPOLLA BEBIBLE DE 35ML - AMPOLLAS CATEGORY",
+        "dosage": {
+          "strength": "5",
+          "unit_of_measure_ids": "13"
+        },
+        "form": {
+          "type_id": 4,
+          "unit_of_measure_id": 2,
+          "quantity": 35
+        },
+        "active_ingredient": "aspartato de arginina",
+        "quantity": 1,
+        "type_id": 1,
+        "generic": false,
+        "manufacturer_id": 393,
+        "group_id": 1
+      },
+      "diagnoses": [
+        "diagnoses_1",
+        "diagnoses_2",
+        "diagnoses_3"
+      ],
+      "created_at": "2017-03-17T22:37:26.959Z"
+    }
+  ]
+}
