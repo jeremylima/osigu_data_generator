@@ -19,14 +19,14 @@
         "type_id": 1,
         "generic": false,
         "manufacturer_id": 393,
-        "group_id": 1
+        "group_id": 1,
+        "created_at": "2017-03-17T22:37:26.959Z"
       },
       "diagnoses": [
         "diagnoses_1",
         "diagnoses_2",
         "diagnoses_3"
-      ],
-      "created_at": "2017-03-17T22:37:26.959Z"
+      ]
     },
     {
       "osigu": {
@@ -47,14 +47,14 @@
         "type_id": 1,
         "generic": false,
         "manufacturer_id": 393,
-        "group_id": 1
+        "group_id": 1,
+        "created_at": "2017-03-17T22:37:26.959Z"
       },
       "diagnoses": [
         "diagnoses_1",
         "diagnoses_2",
         "diagnoses_3"
-      ],
-      "created_at": "2017-03-17T22:37:26.959Z"
+      ]
     },
     {
       "osigu": {
@@ -75,14 +75,14 @@
         "type_id": 1,
         "generic": false,
         "manufacturer_id": 393,
-        "group_id": 1
+        "group_id": 1,
+        "created_at": "2017-03-17T22:37:26.959Z"
       },
       "diagnoses": [
         "diagnoses_1",
         "diagnoses_2",
         "diagnoses_3"
-      ],
-      "created_at": "2017-03-17T22:37:26.959Z"
+      ]
     },
     {
       "osigu": {
@@ -103,14 +103,14 @@
         "type_id": 1,
         "generic": false,
         "manufacturer_id": 393,
-        "group_id": 1
+        "group_id": 1,
+        "created_at": "2017-03-17T22:37:26.959Z"
       },
       "diagnoses": [
         "diagnoses_1",
         "diagnoses_2",
         "diagnoses_3"
-      ],
-      "created_at": "2017-03-17T22:37:26.959Z"
+      ]
     },
     {
       "osigu": {
@@ -131,14 +131,14 @@
         "type_id": 1,
         "generic": false,
         "manufacturer_id": 393,
-        "group_id": 1
+        "group_id": 1,
+        "created_at": "2017-03-17T22:37:26.959Z"
       },
       "diagnoses": [
         "diagnoses_1",
         "diagnoses_2",
         "diagnoses_3"
-      ],
-      "created_at": "2017-03-17T22:37:26.959Z"
+      ]
     },
     {
       "osigu": {
@@ -159,14 +159,14 @@
         "type_id": 1,
         "generic": false,
         "manufacturer_id": 393,
-        "group_id": 1
+        "group_id": 1,
+        "created_at": "2017-03-17T22:37:26.959Z"
       },
       "diagnoses": [
         "diagnoses_1",
         "diagnoses_2",
         "diagnoses_3"
-      ],
-      "created_at": "2017-03-17T22:37:26.959Z"
+      ]
     },
     {
       "osigu": {
@@ -187,14 +187,435 @@
         "type_id": 1,
         "generic": false,
         "manufacturer_id": 393,
-        "group_id": 1
+        "group_id": 1,
+        "created_at": "2017-03-17T22:37:26.959Z"
       },
       "diagnoses": [
         "diagnoses_1",
         "diagnoses_2",
         "diagnoses_3"
-      ],
-      "created_at": "2017-03-17T22:37:26.959Z"
+      ]
+    },
+    {
+      "osigu": {
+        "id": 10000100,
+        "name": "FLUCANDIL",
+        "full_name": "FLUCANDIL 150 MG X 4 CAPSULAS",
+        "dosage": {
+          "strength": "150",
+          "unit_of_measure_ids": "2"
+        },
+        "form": {
+          "type_id": 9
+        },
+        "active_ingredient": "fluconazol",
+        "quantity": 4,
+        "type_id": 1,
+        "generic": false,
+        "manufacturer_id": 393,
+        "group_id": 1,
+        "created_at": "2017-03-17T22:37:26.959Z"
+      },
+      "pbm": {
+        "category": "category_1"
+      }
+    },
+    {
+      "osigu": {
+        "id": 10000101,
+        "name": "FLUCONAZOL",
+        "full_name": "FLUCONAZOL GENFAR 150 MG X 1 CAPSULA SUELTA",
+        "dosage": {
+          "strength": "150",
+          "unit_of_measure_ids": "2"
+        },
+        "form": {
+          "type_id": 9
+        },
+        "active_ingredient": "fluconazol",
+        "quantity": 1,
+        "type_id": 1,
+        "generic": true,
+        "manufacturer_id": 393,
+        "group_id": 1,
+        "created_at": "2017-03-17T22:37:26.959Z"
+      },
+      "pbm": {
+        "category": "category_2",
+        "substitute_osigu_product_id": 10000100,
+        "substitute_equivalent_units": 4
+      }
+    },
+    {
+      "osigu": {
+        "id": 10000102,
+        "name": "FLUCONAZOL",
+        "full_name": "FLUCONAZOL MK 150 MG. X 1 CAPSULA",
+        "dosage": {
+          "strength": "150",
+          "unit_of_measure_ids": "2"
+        },
+        "form": {
+          "type_id": 9
+        },
+        "active_ingredient": "fluconazol",
+        "quantity": 1,
+        "type_id": 1,
+        "generic": true,
+        "manufacturer_id": 393,
+        "group_id": 1,
+        "created_at": "2017-03-17T22:37:26.959Z"
+      },
+      "pbm": {
+        "category": "category_1",
+        "substitute_osigu_product_id": 10000100,
+        "substitute_equivalent_units": 4
+      }
+    },
+    {
+      "osigu": {
+        "id": 10000103,
+        "name": "CANESORAL",
+        "full_name": "CANESORAL X 1 CAPSULA SUELTA",
+        "dosage": {
+          "strength": "150",
+          "unit_of_measure_ids": "2"
+        },
+        "form": {
+          "type_id": 9
+        },
+        "active_ingredient": "fluconazol",
+        "quantity": 1,
+        "type_id": 1,
+        "generic": false,
+        "manufacturer_id": 393,
+        "group_id": 1,
+        "created_at": "2017-03-17T22:37:26.959Z"
+      },
+      "pbm": {
+        "category": "category_2",
+        "substitute_osigu_product_id": 10000100,
+        "substitute_equivalent_units": 4
+      }
+    },
+    {
+      "osigu": {
+        "id": 10000104,
+        "name": "NOLOTEN",
+        "full_name": "NOLOTEN 5 MG X 30 COMPRIMIDOS",
+        "dosage": {
+          "strength": "5",
+          "unit_of_measure_ids": "2"
+        },
+        "form": {
+          "type_id": 14
+        },
+        "active_ingredient": "azitromicina",
+        "quantity": 30,
+        "type_id": 1,
+        "generic": false,
+        "manufacturer_id": 393,
+        "group_id": 1,
+        "created_at": "2017-03-17T22:37:26.959Z"
+      },
+      "pbm": {
+        "category": "category_1"
+      }
+    },
+    {
+      "osigu": {
+        "id": 10000105,
+        "name": "AMPLIRON",
+        "full_name": "AMPLIRON 5 MG X 30 COMPRIMIDOS",
+        "dosage": {
+          "strength": "5",
+          "unit_of_measure_ids": "2"
+        },
+        "form": {
+          "type_id": 14
+        },
+        "active_ingredient": "azitromicina",
+        "quantity": 30,
+        "type_id": 1,
+        "generic": false,
+        "manufacturer_id": 393,
+        "group_id": 1,
+        "created_at": "2017-03-17T22:37:26.959Z"
+      },
+      "pbm": {
+        "category": "category_2",
+        "substitute_osigu_product_id": 10000104,
+        "substitute_equivalent_units": 1
+      }
+    },
+    {
+      "osigu": {
+        "id": 10000106,
+        "name": "AMLODIPINA",
+        "full_name": "AMLODIPINA MK 5 MGS X 30 TABLETAS",
+        "dosage": {
+          "strength": "5",
+          "unit_of_measure_ids": "2"
+        },
+        "form": {
+          "type_id": 72
+        },
+        "active_ingredient": "azitromicina",
+        "quantity": 30,
+        "type_id": 1,
+        "generic": true,
+        "manufacturer_id": 393,
+        "group_id": 1,
+        "created_at": "2017-03-17T22:37:26.959Z"
+      },
+      "pbm": {
+        "category": "category_2",
+        "substitute_osigu_product_id": 10000104,
+        "substitute_equivalent_units": 1
+      }
+    },
+    {
+      "osigu": {
+        "id": 10000107,
+        "name": "COLMIBE",
+        "full_name": "COLMIBE 20/10 MG X 30 COMPRIMIDOS",
+        "dosage": {
+          "strength": "20, 10",
+          "unit_of_measure_ids": "2,2"
+        },
+        "form": {
+          "type_id": 14,
+          "type": "COMPRIMIDOS"
+        },
+        "active_ingredient": "azitromicina,fluconazol",
+        "quantity": 30,
+        "type_id": 1,
+        "generic": false,
+        "manufacturer_id": 393,
+        "group_id": 1,
+        "created_at": "2017-03-17T22:37:26.959Z"
+      },
+      "pbm": {
+        "category": "category_1"
+      }
+    },
+    {
+      "osigu": {
+        "id": 10000108,
+        "name": "KOLESTEVAN E",
+        "full_name": "KOLESTEVAN E 20MG/10MG X 1 CAJA DE 30 TABLETAS",
+        "dosage": {
+          "strength": "20,10",
+          "unit_of_measure_ids": "2,2"
+        },
+        "form": {
+          "type_id": 72
+        },
+        "active_ingredient": "azitromicina,fluconazol",
+        "quantity": 30,
+        "type_id": 1,
+        "generic": false,
+        "manufacturer_id": 393,
+        "group_id": 1,
+        "created_at": "2017-03-17T22:37:26.959Z"
+      },
+      "pbm": {
+        "category": "category_2",
+        "substitute_osigu_product_id": 10000107,
+        "substitute_equivalent_units": 1
+      }
+    },
+    {
+      "osigu": {
+        "id": 10000109,
+        "name": "VALSARTAN",
+        "full_name": "VALSARTAN CALOX 160 MGS X 30 CAPSULAS",
+        "dosage": {
+          "strength": "160",
+          "unit_of_measure_ids": "2"
+        },
+        "form": {
+          "type_id": 9
+        },
+        "active_ingredient": "azitromicina",
+        "quantity": 30,
+        "type_id": 1,
+        "generic": true,
+        "manufacturer_id": 393,
+        "group_id": 1,
+        "created_at": "2017-03-17T22:37:26.959Z"
+      },
+      "pbm": {
+        "category": "category_3"
+      }
+    },
+    {
+      "osigu": {
+        "id": 10000110,
+        "name": "KOPTIN",
+        "full_name": "KOPTIN X 3 TABLETAS",
+        "dosage": {
+          "strength": "500",
+          "unit_of_measure_ids": "2"
+        },
+        "form": {
+          "type_id": 72
+        },
+        "active_ingredient": "azitromicina",
+        "quantity": 3,
+        "type_id": 1,
+        "generic": false,
+        "manufacturer_id": 393,
+        "group_id": 1,
+        "created_at": "2017-03-17T22:37:26.959Z"
+      },
+      "associate_provider": false,
+      "pbm": {
+        "category": "category_1"
+      }
+    },
+    {
+      "osigu": {
+        "id": 10000111,
+        "name": "AZITROMICINA",
+        "full_name": "AZITROMICINA MK 500 MGS X 1 TABLETA SUELTA",
+        "dosage": {
+          "strength": "500",
+          "unit_of_measure_ids": "2"
+        },
+        "form": {
+          "type_id": 72
+        },
+        "active_ingredient": "azitromicina",
+        "quantity": 1,
+        "type_id": 1,
+        "generic": true,
+        "manufacturer_id": 393,
+        "group_id": 1,
+        "created_at": "2017-03-17T22:37:26.959Z"
+      },
+      "pbm": {
+        "category": "category_1",
+        "substitute_osigu_product_id": 10000110,
+        "substitute_equivalent_units": 3
+      }
+    },
+    {
+      "osigu": {
+        "id": 10000112,
+        "name": "BISOBLOC",
+        "full_name": "BISOBLOC 5 MG X 30 TABLETAS",
+        "dosage": {
+          "strength": "5",
+          "unit_of_measure_ids": "2"
+        },
+        "form": {
+          "type_id": 72
+        },
+        "active_ingredient": "azitromicina",
+        "quantity": 30,
+        "type_id": 1,
+        "generic": false,
+        "manufacturer_id": 393,
+        "group_id": 1,
+        "created_at": "2017-03-17T22:37:26.959Z"
+      },
+      "associate_provider": false,
+      "pbm": {
+        "category": "category_1"
+      }
+    },
+    {
+      "osigu": {
+        "id": 10000113,
+        "name": "OPRALEN",
+        "full_name": "OPRALEN 5 MGS X 30 TABLETAS (ATADO + 30 TABLETAS)",
+        "dosage": {
+          "strength": "5",
+          "unit_of_measure_ids": "2"
+        },
+        "form": {
+          "type_id": 72
+        },
+        "active_ingredient": "azitromicina",
+        "quantity": 30,
+        "type_id": 1,
+        "generic": false,
+        "manufacturer_id": 393,
+        "group_id": 1,
+        "created_at": "2017-03-17T22:37:26.959Z"
+      },
+      "associate_provider": false,
+      "pbm": {
+        "category": "category_1",
+        "substitute_osigu_product_id": 10000112,
+        "substitute_equivalent_units": 0.5
+      }
+    },
+    {
+      "osigu": {
+        "id": 10000114,
+        "name": "DIYODO GB",
+        "full_name": "DIYODO SUSPENSION ORAL 300 MG X 1 FRASCO DE 120 MLS",
+        "dosage": {
+          "strength": "300",
+          "unit_of_measure_ids": "1"
+        },
+        "form": {
+          "quantity": 120,
+          "type_id": 71,
+          "unit_of_measure_id": 2
+        },
+        "active_ingredient": "diyodohidroxiquinoleina",
+        "quantity": 1,
+        "type_id": 1,
+        "generic": true,
+        "manufacturer_id": 393,
+        "group_id": 1,
+        "created_at": "2017-03-17T22:37:26.959Z"
+      }
+    },
+    {
+      "osigu": {
+        "id": 10000115,
+        "name": "NEXIUM",
+        "full_name": "NEXIUM 40 MG X 14 COMPRIMIDOS RECUBIERTOS",
+        "dosage": {
+          "strength": "40",
+          "unit_of_measure_ids": "2"
+        },
+        "form": {
+          "type_id": 14
+        },
+        "active_ingredient": "azitromicina",
+        "quantity": 14,
+        "type_id": 1,
+        "generic": false,
+        "manufacturer_id": 393,
+        "group_id": 1,
+        "created_at": "2017-03-17T22:37:26.959Z"
+      }
+    },
+    {
+      "osigu": {
+        "id": 10000116,
+        "name": "BISOBLOC",
+        "full_name": "BISOBLOC 5 MG X 30 TABLETAS VERSALT",
+        "dosage": {
+          "strength": "5",
+          "unit_of_measure_ids": "2"
+        },
+        "form": {
+          "type_id": 72
+        },
+        "active_ingredient": "azitromicina",
+        "quantity": 30,
+        "type_id": 1,
+        "generic": false,
+        "manufacturer_id": 393,
+        "group_id": 1,
+        "created_at": "2017-03-17T22:37:26.959Z"
+      }
     }
   ]
 }

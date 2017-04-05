@@ -1,0 +1,2 @@
+class GlobalVariables(object):
+    QUERY = ""

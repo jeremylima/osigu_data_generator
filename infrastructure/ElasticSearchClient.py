@@ -1,14 +1,15 @@
 from elasticsearch import Elasticsearch
-from config.Config import Config
+from config import ConfigurationManager
 
-config = Config
-es = Elasticsearch(hosts=[config.ELASTIC_SEARCH], port=80, use_ssl=False)
+config = ConfigurationManager
+es = Elasticsearch(hosts=[config.get_elastic_search_host()], port=80, use_ssl=False)
 
 
 class ElasticSearchClient:
     @staticmethod
     def post(doc):
 
+        doc['full_name'] += ' - QA TESTING'
         try:
             es.index(index="product", doc_type='product', id=doc['id'], body=doc)
 

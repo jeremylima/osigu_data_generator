@@ -1,40 +1,26 @@
 import requests
 import json
-from database.Connection import Connection
 from config.Config import Config
+from config import ConfigurationManager
 from mapping.entity_map import get_entity_id
+from handlers.DatabaseHandler import DatabaseHandler
 
-conn = Connection
+
 config = Config
+config_manager = ConfigurationManager
+databaseHandler = DatabaseHandler
 
 
 def get_custom_token():
-    connection = None
+    query = "select * from oauth_access_tokens where entity_id =1 and entity_type = 'USER' " \
+            "order by created_at desc limit 1;"
 
-    try:
-        connection = conn.get_connection()
-        cursor = connection.cursor()
-        cursor.execute("select * from oauth_access_tokens where entity_id =1 and entity_type = 'USER' "
-                       "order by created_at desc limit 1;")
-
-        token = cursor.fetchall()[0][0]
-
-        cursor.close()
-
-        return token
-
-    except Exception as e:
-        print(e)
-        return False
-
-    finally:
-        if connection:
-            connection.close()
+    return databaseHandler.execute(query)[0][0]
 
 
 def set_provider_tokens(custom_token):
     for key in config.PROVIDER_SLUGS:
-        url = config.BASE_URL + '/oauth/custom/token'
+        url = config_manager.get_base_url() + '/oauth/custom/token'
         headers = {'Authorization': 'Bearer' + custom_token, 'Content-Type': 'application/json'}
 
         body = {
@@ -50,7 +36,7 @@ def set_provider_tokens(custom_token):
 
 def set_insurer_tokens(custom_token):
     for key in config.INSURER_SLUGS:
-        url = config.BASE_URL + '/oauth/custom/token'
+        url = config_manager.get_base_url() + '/oauth/custom/token'
         headers = {'Authorization': 'Bearer' + custom_token, 'Content-Type': 'application/json'}
 
         body = {
@@ -65,7 +51,7 @@ def set_insurer_tokens(custom_token):
 
 
 def set_dashboard_token():
-    url = config.BASE_URL + '/oauth/token?grant_type=password&username={user_name}&password={password}'.format(
+    url = config_manager.get_base_url() + '/oauth/token?grant_type=password&username={user_name}&password={password}'.format(
         user_name=config.TOKEN_DASHBOARD_USER, password=config.TOKEN_DASHBOARD_PASSWORD)
     headers = {'Authorization': 'Basic ' + config.TOKEN_BASIC, 'Content-Type': 'application/json'}
 
