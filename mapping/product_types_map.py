@@ -11,3 +11,7 @@ product_types = {
 
 def get_product_type_name(product_type_id):
     return product_types[product_type_id]
+
+
+def get_laboratory_products():
+    return [2, 3]

@@ -9,3 +9,10 @@ class FileReader:
         with open(self.fileName) as json_data:
             d = json.load(json_data)
             return d
+
+    def read(self):
+        # Open and read the file as a single buffer
+        fd = open(self.fileName, 'r')
+        data = fd.read()
+        fd.close()
+        return data

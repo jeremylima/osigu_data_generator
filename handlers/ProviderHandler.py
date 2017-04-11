@@ -20,11 +20,14 @@ class ProviderHandler:
                 provider_prefix=config.PREFIX_PROVIDER_CODE, osigu_product_id=osigu_product['id'],
                 provider_slug=slug[:2]).upper()
 
+            manufacturer = None if 'manufacturer_id' not in osigu_product else \
+                get_manufacturer_name(osigu_product['manufacturer_id'])
+
             body = {
                 "id": provider_code,
                 "name": osigu_product['full_name'],
-                "full_name": osigu_product['full_name'] + ' - QA TESTING',
-                "manufacturer": get_manufacturer_name(osigu_product['manufacturer_id']),
+                "full_name": osigu_product['full_name'],
+                "manufacturer": manufacturer,
                 "type": get_product_type_name(osigu_product['type_id'])
             }
 
@@ -33,4 +36,3 @@ class ProviderHandler:
             products_slug[provider_code] = slug
 
         return products_slug
-

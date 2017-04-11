@@ -67,3 +67,4 @@ class TokensHandler:
         set_provider_tokens(custom_token)
         set_insurer_tokens(custom_token)
         set_dashboard_token()
+        print('Tokens generated successfully')

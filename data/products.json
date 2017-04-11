@@ -23,9 +23,9 @@
         "created_at": "2017-03-17T22:37:26.959Z"
       },
       "diagnoses": [
-        "diagnoses_1",
-        "diagnoses_2",
-        "diagnoses_3"
+        "diagnosis_1",
+        "diagnosis_2",
+        "diagnosis_3"
       ]
     },
     {
@@ -51,9 +51,9 @@
         "created_at": "2017-03-17T22:37:26.959Z"
       },
       "diagnoses": [
-        "diagnoses_1",
-        "diagnoses_2",
-        "diagnoses_3"
+        "diagnosis_1",
+        "diagnosis_2",
+        "diagnosis_3"
       ]
     },
     {
@@ -79,9 +79,9 @@
         "created_at": "2017-03-17T22:37:26.959Z"
       },
       "diagnoses": [
-        "diagnoses_1",
-        "diagnoses_2",
-        "diagnoses_3"
+        "diagnosis_1",
+        "diagnosis_2",
+        "diagnosis_3"
       ]
     },
     {
@@ -107,9 +107,9 @@
         "created_at": "2017-03-17T22:37:26.959Z"
       },
       "diagnoses": [
-        "diagnoses_1",
-        "diagnoses_2",
-        "diagnoses_3"
+        "diagnosis_1",
+        "diagnosis_2",
+        "diagnosis_3"
       ]
     },
     {
@@ -135,9 +135,9 @@
         "created_at": "2017-03-17T22:37:26.959Z"
       },
       "diagnoses": [
-        "diagnoses_1",
-        "diagnoses_2",
-        "diagnoses_3"
+        "diagnosis_1",
+        "diagnosis_2",
+        "diagnosis_3"
       ]
     },
     {
@@ -163,9 +163,9 @@
         "created_at": "2017-03-17T22:37:26.959Z"
       },
       "diagnoses": [
-        "diagnoses_1",
-        "diagnoses_2",
-        "diagnoses_3"
+        "diagnosis_1",
+        "diagnosis_2",
+        "diagnosis_3"
       ]
     },
     {
@@ -191,9 +191,9 @@
         "created_at": "2017-03-17T22:37:26.959Z"
       },
       "diagnoses": [
-        "diagnoses_1",
-        "diagnoses_2",
-        "diagnoses_3"
+        "diagnosis_1",
+        "diagnosis_2",
+        "diagnosis_3"
       ]
     },
     {
@@ -587,7 +587,7 @@
         "form": {
           "type_id": 14
         },
-        "active_ingredient": "azitromicina",
+        "active_ingredient": "esomeprazol",
         "quantity": 14,
         "type_id": 1,
         "generic": false,
@@ -616,6 +616,178 @@
         "group_id": 1,
         "created_at": "2017-03-17T22:37:26.959Z"
       }
+    },
+    {
+      "osigu": {
+        "id": 10000117,
+        "name": "ACETAMINOFEN",
+        "full_name": "ACETAMINOFEN 500 MG X 20 TABLETAS",
+        "dosage": {
+          "strength": "500",
+          "unit_of_measure_ids": "2"
+        },
+        "form": {
+          "type_id": 72
+        },
+        "active_ingredient": "acetaminofen",
+        "quantity": 20,
+        "type_id": 1,
+        "generic": true,
+        "manufacturer_id": 393,
+        "group_id": 1,
+        "created_at": "2017-03-17T22:37:26.959Z"
+      }
+    },
+    {
+      "osigu": {
+        "id": 10000118,
+        "name": "ACETAMINOFEN GENFAR",
+        "full_name": "ACETAMINOFEN GENFAR 500 MG X 100 TABLETAS",
+        "dosage": {
+          "strength": "500",
+          "unit_of_measure_ids": "2"
+        },
+        "form": {
+          "type_id": 72
+        },
+        "active_ingredient": "acetaminofen",
+        "quantity": 100,
+        "type_id": 1,
+        "generic": true,
+        "manufacturer_id": 393,
+        "group_id": 1,
+        "created_at": "2017-03-17T22:37:26.959Z"
+      }
+    },
+    {
+      "osigu": {
+        "id": 10000119,
+        "name": "ACEPTAL",
+        "full_name": "ACEPTAL 500 MG X 16 TABLETAS",
+        "dosage": {
+          "strength": "500",
+          "unit_of_measure_ids": "2"
+        },
+        "form": {
+          "type_id": 72
+        },
+        "active_ingredient": "acetaminofen",
+        "quantity": 16,
+        "type_id": 1,
+        "generic": false,
+        "manufacturer_id": 393,
+        "group_id": 1,
+        "created_at": "2017-03-17T22:37:26.959Z"
+      }
+    },
+    {
+      "osigu": {
+        "id": 10000120,
+        "name": "ESOMEPRAZOL",
+        "full_name": "ESOMEPRAZOL LA SANTE 40 MG X 14 TABLETAS (DUO PACK)",
+        "dosage": {
+          "strength": "40",
+          "unit_of_measure_ids": "2"
+        },
+        "form": {
+          "type_id": 72
+        },
+        "active_ingredient": "esomeprazol",
+        "quantity": 14,
+        "type_id": 1,
+        "generic": true,
+        "manufacturer_id": 393,
+        "group_id": 1,
+        "created_at": "2017-03-17T22:37:26.959Z"
+      }
+    },
+    {
+      "osigu": {
+        "id": 10000121,
+        "name": "CLAXI",
+        "full_name": "CLAXI 875/125MGS X 14 TABLETAS",
+        "dosage": {
+          "strength": "875, 125",
+          "unit_of_measure_ids": "2,2"
+        },
+        "form": {
+          "type_id": 72
+        },
+        "active_ingredient": "amoxicilina, acido clavulanico",
+        "quantity": 14,
+        "type_id": 1,
+        "generic": false,
+        "manufacturer_id": 393,
+        "group_id": 1,
+        "created_at": "2017-03-17T22:37:26.959Z"
+      }
+    },
+    {
+      "osigu": {
+        "id": 10000122,
+        "name": "CLAVULIN C",
+        "full_name": "CLAVULIN C12 875/125 MG X 14 COMPRIMIDOS",
+        "dosage": {
+          "strength": "875, 125",
+          "unit_of_measure_ids": "2,2"
+        },
+        "form": {
+          "type_id": 14
+        },
+        "active_ingredient": "amoxicilina, acido clavulanico",
+        "quantity": 14,
+        "type_id": 1,
+        "generic": false,
+        "manufacturer_id": 393,
+        "group_id": 1,
+        "created_at": "2017-03-17T22:37:26.959Z"
+      }
+    },
+    {
+      "osigu": {
+        "id": 10000123,
+        "name": "CLAXIN B",
+        "full_name": "CLAXIN B 875/125MGS X 14 TABLETAS",
+        "dosage": {
+          "strength": "875, 125",
+          "unit_of_measure_ids": "2,2"
+        },
+        "form": {
+          "type_id": 72
+        },
+        "active_ingredient": "amoxicilina, acido clavulanico",
+        "quantity": 14,
+        "type_id": 1,
+        "generic": false,
+        "manufacturer_id": 393,
+        "group_id": 1,
+        "created_at": "2017-03-17T22:37:26.959Z"
+      },
+      "associate_provider": false
+    },
+    {
+      "osigu": {
+        "id": 10000124,
+        "full_name": "INTOLERANCIA ALIMENTICIA IGG",
+        "type_id": 2,
+        "group_id": 11,
+        "created_at": "2017-03-17T22:37:26.959Z"
+      },
+      "diagnoses": [
+        "diagnosis_1"
+      ]
+    },
+    {
+      "osigu": {
+        "id": 10000125,
+        "full_name": "PANEL DE ALERGENOS PEDIATRICO",
+        "type_id": 2,
+        "group_id": 11,
+        "created_at": "2017-03-17T22:37:26.959Z"
+      },
+      "diagnoses": [
+        "diagnosis_1"
+      ]
     }
   ]
 }

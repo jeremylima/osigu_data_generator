@@ -7,11 +7,10 @@ es = Elasticsearch(hosts=[config.get_elastic_search_host()], port=80, use_ssl=Fa
 
 class ElasticSearchClient:
     @staticmethod
-    def post(doc):
+    def post(index, doc_id, body):
 
-        doc['full_name'] += ' - QA TESTING'
         try:
-            es.index(index="product", doc_type='product', id=doc['id'], body=doc)
+            es.index(index=index, doc_type=index, id=doc_id, body=body)
 
         except Exception as e:
             print(e)

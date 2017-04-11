@@ -1,14 +1,14 @@
 diagnoses = {
-    'diagnosis_1': 854,
-    'diagnosis_2': 855,
-    'diagnosis_3': 856,
-    'diagnosis_4': 857,
-    'diagnosis_5': 858,
-    'diagnosis_6': 859,
-    'diagnosis_7': 860,
-    'diagnosis_8': 861,
-    'diagnosis_9': 862,
-    'diagnosis_10': 863,
+    'diagnosis_1': 10000000,
+    'diagnosis_2': 10000001,
+    'diagnosis_3': 10000002,
+    'diagnosis_4': 10000003,
+    'diagnosis_5': 10000004,
+    'diagnosis_6': 10000005,
+    'diagnosis_7': 10000006,
+    'diagnosis_8': 10000007,
+    'diagnosis_9': 10000008,
+    'diagnosis_10': 10000010,
 }
 
 
