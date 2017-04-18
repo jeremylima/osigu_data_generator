@@ -6,4 +6,5 @@ delete from pbm.product_categories where id>=10000000;
 delete from pbm.substitute_products where id>=10000000;
 delete from public.insurer_product_diagnoses where product_diagnosis_id in (select id from public.product_diagnoses where diagnosis_id>=10000000 );
 delete from public.product_diagnoses where diagnosis_id in (select id from public.diagnoses where name like '%QA TESTING%');
+delete from express_authorization_diagnoses where diagnosis_id in (select id from public.diagnoses where name like '%QA TESTING%');
 delete from public.diagnoses where name like '%QA TESTING%';
